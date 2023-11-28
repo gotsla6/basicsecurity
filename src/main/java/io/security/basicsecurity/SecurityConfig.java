@@ -29,6 +29,7 @@ public class SecurityConfig {
 		http
 				.authorizeRequests()
 				.anyRequest().authenticated();
+
 		http
 				.formLogin();
 
